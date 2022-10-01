@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+.box1 section{
+    border: 10px;
+    width: 35%;
+    height: 100px;
+    box-sizing: border-box;
+    background-color: grey;
+    margin: 10px;
+    border-spacing: 10px;
+}
+.box2 section{
+    border: 10px;
+    width: 35%;
+    height: 100px;
+    box-sizing: border-box;
+    background-color: grey;
+    margin: 10px;
+    border-spacing: 10px;
+}
+.box3 section{
+    border: 10px;
+    width: 35%;
+    height: 100px;
+    box-sizing: border-box;
+    background-color: grey;
+    margin: 10px;
+    border-spacing: 10px;
+}
+  .box4 section{
+    border: 10px;
+    width: 35%;
+    height: 300px;
+    box-sizing: border-box;
+    background-color: grey;
+    margin:10px;
+    border-spacing: 10px;
+    
+    
+   
+    
+}  
+.box5 section{
+    border: 10px;
+    width: 60%;
+    height: 665px;
+    box-sizing: border-box;
+    background-color: grey;
+    float: right;
+    border-spacing: 10px;
+    margin-top: -669px;
+}
+</style>
+</head>
+<body>
+
+
+<header>
+  <h2>Cities</h2>
+</header>
+<div class="box1">
+<section>
+<h1 style="text-align:justify;">Article</h1>
+</section></div>
+<div class="box2">
+<section>
+    <h1 style="text-align: justify;">Article2</h1>
+</section>
+</div>
+<div class="box3">
+    <section>
+    <h1 style="text-align:justify;">Section</h1>
+    </section></div>
+    <div class="box4">
+        <section>
+        <h1 style="text-align:justify;">section</h1>
+        </section></div>
+        <div class="box5">
+            <section>
+            <h1 style="text-align:justify;">Article</h1>
+            </section></div>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>

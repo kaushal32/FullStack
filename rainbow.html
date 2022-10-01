@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:orange; left:200px; top:0px;}
+  50%  {background-color:yellow ; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:blue; left:0px; top:0px;}
+}
+
+</style>
+</head>
+<body style="background-image: linear-gradient(to bottom, red,orange,yellow,green,blue,indigo,violet);">
+
+    <h1 style="font-size: xx-large; color: rgb(70, 7, 16); text-align: center;">STUDENT 1</h1>
+    <h1 style="font-size: xx-large; color: rgb(195, 181, 181); text-align: center;">STUDENT 2</h1>
+    <h1 style="font-size: xx-large; color: rgb(11, 31, 179); text-align: center;">STUDENT 3</h1>
+    <h1 style="font-size: xx-large; color: rgb(1, 1, 19); text-align:center;">STUDENT 4</h1>
+    <h1 style="font-size: xx-large; color: rgb(184, 17, 67); text-align: center;">STUDENT 5</h1>
+
+
+
+<div></div>
+
+</body>
+</html>

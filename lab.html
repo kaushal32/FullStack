@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=p, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="p"> this is  paragraph </p>
+    <div id="d"> this is  div class </div>
+    <h1 id="h1">this is h1 tag </h1>
+    <div id="d2" ></div>
+    <div id="abc">
+        <div id="ab">
+            <img src="C:\xampp\htdocs\img\flower.jpg" alt="" height="200px;">
+            <p>name: kaushal kumar</p> 
+            <p>email: kk@gmail.com</p> 
+            <p>mobile:98134894515</p> 
+        </div>
+     </div>
+    <button type="button" onclick="getcontent()"> click here to know more</button>
+    <script>
+        function getcontent(){
+            document.getElementById().innerHTML="Welcome!";
+        }
+         document.getElementById('d2').innerHTML="this is div element 2 using inner class "
+        
+        document.getElementById('p').style.border="gray 8px solid";
+        document.getElementById('d').style.border="yellow 5px dashed";
+        document.getElementById('h1').style.cssText="border:solid blue ; background-color:light blue";
+        document.getElementById('abc').style.cssText="border:solid blue 5px; background-color: blue ; height: 400px; width:700px";
+        document.getElementById('ab').style.cssText="border:solid blue 5px; background-color: yellow ; height: 300px ; width: 400px; margin: 20px ;padding: 20px"  ;
+    </script>
+
+   
+</body>
+</html>

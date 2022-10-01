@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+</head>
+<style>
+    div{
+        color:rgb(205, 60, 113);
+        background-color: whitesmoke;
+        font-size: 20px;
+    }
+    .iTag{
+        color:rgb(205, 60, 113);
+        background-color: whitesmoke;
+        font-size: 20px;
+    }
+    #bTag{
+        color:rgb(205, 60, 113);
+        background-color: whitesmoke;
+        font-size: 20px;
+    }
+    *{
+        color:rgb(205, 60, 113);
+        background-color: rgb(178, 255, 251);
+        font-size: 20px;
+    }
+    div,p{
+        color:rgb(205, 60, 113);
+        background-color: whitesmoke;
+        font-size: 20px;
+    }
+    div>p{
+        color:rgb(205, 60, 113);
+        background-color: whitesmoke;
+        font-size: 20px;
+    }
+    div p{
+        color:rgb(205, 60, 113);
+        background-color: whitesmoke;
+        font-size: 20px;
+    }
+    div+p{
+        color:rgb(205, 60, 113);
+        background-color: whitesmoke;
+        font-size: 20px;
+    }
+    div~p{
+        color:rgb(205, 60, 113);
+        background-color: whitesmoke;
+        font-size: 20px;
+    }
+</style>
+<body>
+    1- By Tag name<hr>
+    2- By Combinators <hr>
+    3- By Adajacent Sibling Selector<hr>
+    4- By After Relation Selector<hr>
+    <div>
+        I'm Kaushal
+        <hr>
+        <p>
+            type_1
+            <pre>
+        Nested P
+            </pre>
+        </p>
+        <hr>
+        <b>
+            type_2
+        </b>
+        <hr>
+        <i>
+            type_3
+        </i>
+        <hr>
+        <p>
+            Again_P
+        </p>
+    </div>
+    <p>
+        type_1
+    </p>
+    <hr>
+    <b id="bTag">
+        type_2
+    </b>
+    <hr>
+    <i class="iTag">
+        type_3
+    </i>
+    <hr>
+    <p>
+       One_More_P
+    </p>
+    
+</body>
+</html>
